@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">EMA</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="password">password</string>
+    <string name="tab1">HOME</string>
+    <string name="tab2">CONTACTS</string>
+    <string name="tab3">EVENTS</string>
+    <string name="tab4">CONFIRMATIONS</string>
+    <string name="tab5">PROFILE</string>
+    <string name="title_activity_list_test">ListTest</string>
+
+
+    <string name="select_contacts">Select Contacts</string>
+    <string name="selected_contacts">Selected Contacts</string>
+
+    <string name="permission_denied">Permission denied</string>
+    <string name="permission_denied_contacts">The contact picker won\'t work without this permission. Are you sure you want to deny this permission?</string>
+    <string name="permission_deny">Deny</string>
+    <string name="permission_retry">Re-try</string>
+
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="title_activity_setup_events">setupEvents</string>
+
+
+    <string name="contact_list_prompt">Select Contact List</string>
+    <string-array name="contact_list">
+        <item>Venue</item>
+        <item>Entertainment</item>
+        <item>Catering</item>
+        <item>Guests</item>
+    </string-array>
+
+</resources>

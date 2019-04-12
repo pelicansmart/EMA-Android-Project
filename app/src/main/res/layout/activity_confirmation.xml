@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@drawable/gradient"
+android:layout_height="match_parent"
+tools:context=".activityUserConfirmation">
+
+    <include layout="@layout/bar_back"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Verify Phone Number"
+            android:fontFamily="@font/cambriab"
+            android:textColor="#012060"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:fontFamily="@font/cambriab"
+            android:gravity="center"
+            android:text="A text message with a verification code has been sent to "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvdisplayNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:alpha="1"
+            android:fontFamily="@font/cambriab"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:fontFamily="@font/cambriab"
+            android:gravity="center"
+            android:text="Enter the code here:"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <com.example.muhammadzubair.ema.PinEntryEditText
+            android:id="@+id/et_pin_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:inputType="number"
+            android:maxLength="6"
+            android:padding="10dp"
+            android:textColor="#012060"
+            app:pinLineColors="#012060"
+            app:pinLineStroke="2dp" />
+
+        <Button
+            android:id="@+id/confirmB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/arial"
+            android:text="Confirm"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#012060"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cambriab"
+                android:text="Didn't receive code?"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewResend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" RESEND NOW"
+                android:textColor="#012060"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

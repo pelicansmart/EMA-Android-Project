@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "804563070292",
+    "firebase_url": "https://emabyzubair-5b5de.firebaseio.com",
+    "project_id": "emabyzubair-5b5de",
+    "storage_bucket": "emabyzubair-5b5de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804563070292:android:5b73fd027af27277",
+        "android_client_info": {
+          "package_name": "com.example.muhammadzubair.ema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804563070292-mg9vhnu8u6gc3q9eopil4qte509379o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muhammadzubair.ema",
+            "certificate_hash": "2e95e4ce69494341c00dce211c9f86833286e418"
+          }
+        },
+        {
+          "client_id": "804563070292-ink2sh40o3i46o6d92vd9oj9o36jkmhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKA-MlEOgyKNNUmy3YrpEr4kX2GN2QDaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804563070292-ink2sh40o3i46o6d92vd9oj9o36jkmhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

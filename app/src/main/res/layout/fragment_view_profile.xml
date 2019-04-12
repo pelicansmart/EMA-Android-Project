@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".activityHomeMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="140dp"
+                android:id="@+id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_user"
+                android:layout_height="130dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/edit_profile"
+            android:layout_gravity="center"
+            android:text="Edit Profile"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="@drawable/mybutton"
+            android:textColor="#012060"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/et_fullname"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@mipmap/ic_user"
+            android:text="Full name"
+            android:textColor="#012060"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/arial"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_email"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/ic_imgemail"
+            android:text="Email"
+            android:textColor="#012060"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/arial"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/et_phone"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/ic_phone"
+            android:text="Phone"
+            android:textColor="#012060"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/arial"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/delete_account"
+            android:layout_gravity="center"
+            android:text="Delete Account"
+            android:textStyle="bold|normal"
+            android:padding="0dp"
+            android:background="@drawable/mybutton3"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="@font/cambriab"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

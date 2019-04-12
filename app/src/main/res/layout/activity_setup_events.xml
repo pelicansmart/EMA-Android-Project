@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".activitySetupEvents">
+
+    <include layout="@layout/bar_back"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Event Title"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/cambriab"
+            android:padding="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_title"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/mytextfeild2"
+            android:textColor="#012060"
+            android:lines="1"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="-5dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Event Details"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/cambriab"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_details"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/mytextfeild2"
+            android:textColor="#012060"
+            android:gravity="top"
+            android:lines="4"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginBottom="-5dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Event Date"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/cambriab"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_date"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/mytextfeild2"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:hint="DD-MM-YYYY"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="200dp"
+            android:focusable="false"
+            android:imeOptions="actionNext"
+            android:maxLength="30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="-5dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Event Time"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/cambriab"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_time"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/mytextfeild2"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:hint="HH:MM"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="10dp"
+            android:focusable="false" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Event Venue"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/cambriab"
+            android:layout_marginBottom="-5dp"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_venue"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/mytextfeild2"
+            android:textColor="#012060"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/btn_save"
+            android:drawablePadding="-10dp"
+            android:padding="10dp"
+            android:drawableTop="@mipmap/ic_saveevent"
+            android:text="SAVE"
+            android:textAlignment="center"
+            android:textColor="#012060"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/cambriab"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

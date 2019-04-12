@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.muhammadzubair.ema.activityContactPicker">
+
+    <include layout="@layout/bar_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/list_name"
+            android:padding="5dp"
+            android:text="List Name"
+            android:textColor="#012060"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:fontFamily="@font/cambriab"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <ListView
+            android:id="@+id/confirmation_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/mylistview"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/total"
+            android:padding="5dp"
+            android:text="Total Confirmed Guests:"
+            android:textColor="#012060"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:fontFamily="@font/cambriab"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

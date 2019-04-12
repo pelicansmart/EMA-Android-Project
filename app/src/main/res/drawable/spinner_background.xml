@@ -1,0 +1,29 @@
+<?xml version="1.0"
+    encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="#FFFFFF" />
+
+                    <stroke android:width="2dp"
+                        android:color="#012060" />
+
+                    <corners android:radius="5dp" />
+
+                    <padding
+                        android:bottom="10dp"
+                        android:left="10dp"
+                        android:right="10dp"
+                        android:top="10dp" />
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="right"
+                    android:src="@drawable/arrow" />
+                // you can use any other image here, instead of default_holo_dark_am
+            </item>
+        </layer-list>
+    </item>
+</selector>

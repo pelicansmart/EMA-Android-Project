@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_weight="43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO#"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#012060"
+        android:fontFamily="@font/cambriab"/>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="?attr/listPreferredItemHeight"
+            android:mode="twoLine"
+            android:layout_alignStart="@id/textView1"
+            android:layout_weight="20"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="20sp"
+                android:textColor="#012060"
+                android:fontFamily="@font/cambriab"
+                android:padding="2dp"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <TextView
+                android:id="@id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textSize="18sp"
+                android:padding="2dp"
+                android:textColor="#012060"
+                android:fontFamily="@font/cambriab"
+                android:layout_below="@id/text"
+                android:layout_alignStart="@id/text"
+                android:textAppearance="?attr/textAppearanceListItemSecondary" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="38"
+            android:fontFamily="@font/cambriab"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textAlignment="center"
+            android:text="Response"
+            android:textColor="#012060"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
